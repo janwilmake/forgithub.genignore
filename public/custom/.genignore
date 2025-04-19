@@ -1,0 +1,35 @@
+# Archived and old content
+_archive_/
+versions/1.2.md
+versions/2.0*
+
+# Build artifacts and dependencies
+node_modules/
+package-lock.json
+
+# Internal workflow files
+.github/workflows/
+.github/ISSUE_TEMPLATE/
+.github/templates/
+
+# Testing files that don't provide meaningful context
+tests/
+vitest.config.mjs
+
+# Development scripts
+scripts/
+
+# Git-related files
+.gitattributes
+.gitignore
+.gitmodules
+
+# Non-essential metadata files
+CODEOWNERS
+dependabot.yml
+
+# Older proposals (keeping only recent ones)
+proposals/2019-*
+proposals/2020-*
+proposals/Alternative-Schema/
+proposals/Overlays/
